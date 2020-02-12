@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bootstrapwebpage</title>
+<link rel="stylesheet" href="formquestion.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<div class="container-fluid container5" style="border:3px solid black">
+    <div class="container-fluid container1" style="border:2px solid blue">
+        <h1 align="left">To The New</h1>
+        <h6 align="right">home  quick help</h6>
+    </div>
+    <div class="container container2" style="width: 500px;">
+        <h2 align="center">Bug Report</h2>
+        
+    </div>
+    <br>
+    <div class="container container3" style="width:500px">
+        <label for="title">Title*</label>
+        <br>
+        <input type="text" id="title" name="title" placeholder="title is..">
+        <br></br>
+
+        <label for="Description">Description</label>
+        <br>
+        <input type="text" id="description" name="description" placeholder="description is..">
+        <br></br>
+
+        <label for="operating_system">operating system</label>
+        <br>
+        <select id="operating_system" name="operating_system">
+          <option value="windows10">windows10</option>
+          <option value="linux ubuntu">linux ubuntu</option>
+          <option value="mac os">mac os</option>
+        </select>
+        <br></br>
+
+        <label for="products">products</label>
+        <br>
+        <select id="products" name="products">
+          <option value="android">android</option>
+          <option value="i-music">imusic</option>
+          <option value="playstore">playstore</option>
+        </select>
+        <br></br>
+
+        <label for="Version">Version</label>
+        <br>
+        <input type="text" id="version" name="version" placeholder="version is..">
+        <br></br>
+
+        <label for="severity">Severity</label>
+        <br>
+        <select id="severity" name="severity">
+          <option value="severe">severe</option>
+          <option value="mild">mild</option>
+          <option value="critical">critical</option>
+        </select>
+        <br></br>
+
+        License:
+        <br>
+        
+        <input type="radio" name="License" value="free"> Free </input>
+        <input type="radio" name="License" value="Business"
+        style="margin-left:20px;"> Business </input>
+        <br>
+        <br>
+
+        Attachments:
+        <br>
+        <div class ="file">
+        No file Selected <input type="button name="choose file"
+        value="choose file ">
+        </div>
+
+        
+
+
+        
+    </div>
+    
+        <div class="container container4" style="width:500px;background-color: grey;">
+        
+        <div class="row">
+        <div class="col-sm-10">
+
+        </div>
+        <div class="col-sm-2">
+            <input type="submit" value="Send">   
+    
+       </div>
+</div>
+
+</body>
