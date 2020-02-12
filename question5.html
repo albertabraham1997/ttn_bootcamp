@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Today's Date</title>
+    <script>
+        function Employee(name,age,salary,DOB){
+            this.Name=name;
+            this.Age=age;
+            this.Salary=salary;
+            this.dob=DOB;
+        }
+        var employee1=new Employee("Albert",22,500,'22-aug-1997');
+        var employee2=new Employee("ashita",24,400,'22-mar-1995');
+        var employee3=new Employee("abhi",25,450,'22-mar-1995');
+        var employee4=new Employee("robin",28,2000,'22-mar-1995');
+        var employee5=new Employee("ronny",40,9000,'25-mar-1985');
+        
+        var question1 =[];
+
+        var obj=new Array();
+
+        obj.push(employee1);
+        obj.push(employee2);
+        obj.push(employee3);
+        obj.push(employee4);
+        obj.push(employee5);
+        
+        for (var j = 0; j < obj.length; j++){
+            if (obj[j].Salary>=5000){
+                question1.push(obj[j].Name);
+            }
+
+        }
+       
+        /*for (var key in obj){
+            console.log(key.Salary);
+            if (key.Salary>=5000){
+                question1.push(key.Name);
+
+            }
+        }
+        */
+        console.log(question1);
+
+        var below30=[];
+        var above30=[];
+
+        for (var j = 0; j < obj.length; j++){
+            if (obj[j].Age<=30){
+                below30.push(obj[j].Name);
+            }
+        }
+
+        for (var j = 0; j < obj.length; j++){
+            if(obj[j].Age>30){
+                above30.push(obj[j].Name);
+            }
+        }
+        console.log("people with age below 30 are :\n");
+        console.log(below30);
+        console.log("\n");
+        console.log("people with age above 30 are :\n");
+        console.log(above30);
+
+        var question3=[];
+
+        for (var j = 0; j < obj.length; j++){
+            if (obj[j].Salary<1000 && obj[j].Age>20){
+                obj[j].Salary=(obj[j].Salary)*5;
+
+            }
+        }
+        for (var j = 0; j < obj.length; j++){
+            console.log(obj[j].Salary+"\n")
+        }
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+
+
+</html>
