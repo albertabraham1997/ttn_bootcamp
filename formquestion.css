@@ -1,0 +1,30 @@
+.container1{
+    background-color: whitesmoke;
+}
+h1{
+    color:blue;
+    
+    padding-left:20px;
+    padding-top:20px;
+
+}
+h4{
+    text-align-last: ;
+}
+.container2{
+    background-color: teal;
+    margin: auto;
+    border-style: solid;
+   height: 120px;
+    
+
+}
+h2{
+    padding-top: 30px;
+    align-content: center;
+}
+.container3{
+    margin:auto;
+    border-width: 10px;
+    border-style: solid;
+}
