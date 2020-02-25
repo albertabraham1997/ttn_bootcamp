@@ -23,9 +23,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.question8">
-    <configuration name="questin7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questin7" />
+  <component name="RunManager" selected="Application.question4">
+    <configuration name="question2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="question2" />
+      <module name="java4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="question3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="question3" />
+      <module name="java4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="question4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="question4" />
       <module name="java4" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -38,13 +52,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="question6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="question6" />
-      <module name="java4" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="question7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="question7" />
       <module name="java4" />
@@ -52,20 +59,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="question8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="question8" />
-      <module name="java4" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.question8" />
+        <item itemvalue="Application.question4" />
         <item itemvalue="Application.question7" />
-        <item itemvalue="Application.questin7" />
-        <item itemvalue="Application.question6" />
         <item itemvalue="Application.question5" />
+        <item itemvalue="Application.question3" />
+        <item itemvalue="Application.question2" />
       </list>
     </recent_temporary>
   </component>
@@ -87,21 +87,21 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1582469616620" />
-    <state width="1253" height="175" key="GridCell.Tab.0.bottom" timestamp="1582474150562">
+    <state width="1253" height="175" key="GridCell.Tab.0.bottom" timestamp="1582563201428">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1582474150562" />
-    <state width="1253" height="175" key="GridCell.Tab.0.center" timestamp="1582474150561">
+    <state width="1253" height="175" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1582563201428" />
+    <state width="1253" height="175" key="GridCell.Tab.0.center" timestamp="1582563201428">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1582474150561" />
-    <state width="1253" height="175" key="GridCell.Tab.0.left" timestamp="1582474150561">
+    <state width="1253" height="175" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1582563201428" />
+    <state width="1253" height="175" key="GridCell.Tab.0.left" timestamp="1582563201428">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1582474150561" />
-    <state width="1253" height="175" key="GridCell.Tab.0.right" timestamp="1582474150562">
+    <state width="1253" height="175" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1582563201428" />
+    <state width="1253" height="175" key="GridCell.Tab.0.right" timestamp="1582563201428">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1582474150562" />
+    <state width="1253" height="175" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1582563201428" />
   </component>
 </project>

@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public class question3 {
@@ -6,23 +7,28 @@ public class question3 {
     {
         HashMap<Character, Integer> hashMap = new HashMap<>();
         char myCharArray[] = str.toCharArray();
+        for(int i=0;i<myCharArray.length;i++){
+            if(!hashMap.containsKey(myCharArray[i])){
+                hashMap.put(myCharArray[i],1);
+            }
+            else{
+                int temp=hashMap.get(myCharArray[i]);
+                temp=temp+1;
+                hashMap.put(myCharArray[i],temp);
+            }
+            //System.out.println(hashMap);
+            //for (Map.Entry<Character,Integer> entry : hashMap.entrySet()) {
+             //   System.out.println(entry.getKey()+" : "+entry.getValue());
+            //}
 
-        for (char eachCharacter : myCharArray)
-        {
-            if(hashMap.containsKey(eachCharacter))
-            {
-                hashMap.put(eachCharacter, hashMap.get(eachCharacter)+1);
-            }
-            else
-            {
-                hashMap.put(eachCharacter, 1);
-            }
+        }
+        //System.out.println(hashMap);
+        for (Map.Entry<Character,Integer> entry : hashMap.entrySet()) {
+            System.out.println(entry.getKey()+" : "+entry.getValue());
+
         }
 
-        for (HashMap.Entry entry: hashMap.entrySet())
-        {
-            System.out.println("Occurences of each character in string is: "+entry.getKey()+" : "+entry.getValue());
-        }
+
     }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
